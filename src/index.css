@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: local('Gilroy-Bold'), url(./fonts/Gilroy-Bold.ttf) format('truetype');
+  src: local('Gilroy-BoldItalic'), url(./fonts/Gilroy-BoldItalic.ttf) format('truetype');
+  src: local('Gilroy-SemiBold'), url(./fonts/Gilroy-SemiBold.ttf) format('truetype');
+  src: local('Gilroy-Regular'), url(./fonts/Gilroy-Regular.ttf) format('truetype');
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  font-family: 'Gilroy-Bold';
+}
+
+::selection {
+  color: rgb(250, 98, 10);
+}
